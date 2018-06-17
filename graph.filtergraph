@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FILTERGRAPH>
+  <FILTER uid="1" x="0.50000000000000000000" y="0.10000000000000000555">
+    <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="ROLI Ltd." version="1.0" file="" uid="246006c0"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="2" isShell="0"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="2" x="0.25000000000000000000" y="0.10000000000000000555">
+    <PLUGIN name="Midi Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="ROLI Ltd." version="1.0" file="" uid="cb5fde0b"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="0" isShell="0"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="3" x="0.50000000000000000000" y="0.90000000000000002220">
+    <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="ROLI Ltd." version="1.0" file="" uid="724248cb"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="2"
+            numOutputs="0" isShell="0"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="6" x="0.31624999999999997558" y="0.53269230769230768718"
+          uiLastX_Normal="516" uiLastY_Normal="31" uiopen_Normal="0">
+    <PLUGIN name="StarterSynth" format="AudioUnit" category="Synth" manufacturer="Sac McGoo"
+            version="1.0.0" file="AudioUnit:Synths/aumu,Y5o4,Manu" uid="75216c34"
+            isInstrument="1" fileTime="0" infoUpdateTime="163746453e2" numInputs="0"
+            numOutputs="2" isShell="0"/>
+    <STATE>368.hAGaoMGcv.y0AHv.DTfAGfPBJ7.DQHAWsEla0YVXiQWcxUlbTQVXzEFWkwVYsUlaz0hag0VYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDMEla08DDrB..............T.vMQ46O.B...bST+B......2DEv.....bfLoXxO.B..Y3FQLty.R71FDoa46LfDuUSUQ72NCHwa1P46Jry.R71PFEI48Lti4LjQQVdOi6XNCYTjl2y3NlSQFXhE+....TjAlbwO....EYfIX7C...PQbPZ7+....TDGjJ+O....EwAoy+C...fZK3Gp+.H...GfC02NCHwawkPqiry.R7VzKvPTxDcCNDELV8TczAWczIQV07FMP.fDgUWa0gUUtQWZzwVYjA.B.bA.j.PJ.XC.9.fQ.rD.PAPUAPP.GDPBAvP.NDPEAnQ.bDPH........BD..........S...................AnB</STATE>
+    <LAYOUT>
+      <INPUTS/>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <CONNECTION srcFilter="2" srcChannel="4096" dstFilter="6" dstChannel="4096"/>
+  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="3" dstChannel="0"/>
+  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="3" dstChannel="1"/>
+</FILTERGRAPH>
