@@ -2,7 +2,9 @@
 My first synthesizer! A three-oscillator additive synth with a few wavetypes, adjustable pitch/frequency offset, and cutoff control for each oscillator. Also has a bunch of other cool stuff (Amp/Cutoff ADSR/LFO, autobend, etc.) to make noise.
 
 IF YOU JUST WANT THE PLUGIN:
-there's a file called Synth.component in the main directory. Pop this into Library/Audio/Plug-Ins/Components/ (for Mac...not sure where this folder is on windows but it shouldn't be too hard to figure out) and restart your DAW. That ought to do it.
+Mac: There's a file called Synth.component in the main directory. Pop this into Library/Audio/Plug-Ins/Components/ and restart your DAW. That ought to do it.
+
+Windows: Same deal but instead download Synth.vst and pop it into C:\Program Files\Common Files\VST. Bam.
 
 IF YOU WANT TO PLAY WITH/COMPILE THE CODE:
 
